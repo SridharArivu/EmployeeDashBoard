@@ -1,0 +1,27 @@
+.Footer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 10vh;
+    width: 100%;
+    background-color:aqua;
+}
+
+.Company__details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.social__details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.h2__elements{
+    color: rgb(69, 28, 28);
+}

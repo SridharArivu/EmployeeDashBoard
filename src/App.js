@@ -2,6 +2,7 @@
 import Home from "../src/components/Home/Home";
 import Header from "../src/components/Header/Header";
 import Employee from "./pages/Employee";
+import Footer from '../src/components/Footer/Footer'
 import { Routes, Route , BrowserRouter} from 'react-router-dom';
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/employee" element={<Employee/>} />
       </Routes>
       </BrowserRouter>
+      <Footer/>
     </>
   );
 }
