@@ -1,0 +1,103 @@
+.Card__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    width: 16rem;
+    height:22rem;
+    position: relative;  
+}
+
+.Card__BG{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    border-radius: 20px;
+}
+
+.Card__Avatar__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height:39%;
+    width: 100%;
+    z-index: -999;
+}
+.Card__Emp__details__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 39%;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.Emp__view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 12%;
+    width: 100%;
+}
+.Card__Emp__details__wrapper h4,h2, p {
+    margin: 2px;
+    padding: 2px;
+}
+.Emp__view__btn{
+    height: 80%;
+    width: 50%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #333;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.Emp__view__btn:hover{
+    background-color: #e0e0e0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.EditBtn{
+    display:none;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    background-color: #2954c7;
+    border: none;
+    position: absolute;
+}
+.DeleteBtn{
+    display:none;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+    background-color: #2954c7;
+    border: none;
+     position: absolute;
+}
+
+.Card__wrapper:hover {
+
+    .DeleteBtn{
+        display: flex;
+    }
+    .EditBtn{
+        display: flex;
+    }
+
+    cursor: pointer;
+    
+} 

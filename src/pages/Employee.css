@@ -1,0 +1,65 @@
+.Employee__wrapper{
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    margin-top: 1rem;
+    background: url('../images/BgImage.png');
+    
+}
+
+
+
+
+.Emp__left__wrapper{
+    display: flex;
+    height: 30vh;
+    width: 20%;
+    
+}
+.Emp__left__wrapper img{
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+
+
+.Emp__Right__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    width: 80%;
+}
+
+.empName{
+    color: white;
+}
+
+.empAge{
+    color: white;
+}   
+.empSalary{
+    color: white;
+
+}
+
+.Emp__Back_button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #333;
+    background-color: #f4f4f4;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Emp__Back_button:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
